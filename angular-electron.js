@@ -19,7 +19,7 @@ angular.module('angular-electron').constant('process', electronProcess);
 
 var remoteModules = ['app', 'autoUpdater', 'BrowserWindow', 'contentTracing', 'dialog',
                      'globalShortcut', 'Menu', 'MenuItem', 'powerMonitor', 'powerSaveBlocker',
-                     'protocol', 'webContents', 'tray'];
+                     'protocol', 'webContents', 'Tray'];
 var nodeModules = ['buffer', 'child_process', 'cluster', 'crypto', 'dns', 'events', 'fs', 'http',
                    'https', 'net', 'os', 'path', 'punycode', 'querystring', 'readline', 'stream',
                    'string_decoder', 'tls', 'dgram', 'url', 'util', 'v8', 'vm', 'zlib'];
